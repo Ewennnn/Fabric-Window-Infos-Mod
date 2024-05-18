@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "fr.ewennn.minecraft.fabric.mixin.client",
+	"compatibilityLevel": "JAVA_17",
+	"client": [
+		"MinecraftClientMixin",
+		"ClientConnectToServerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
